@@ -1,5 +1,4 @@
 Name: Hua Tong
-UNI: ht2334
 
 ===============================!!!!NOTE!!!!=============================
 1. My TRANSFER command works great with .txt files, but does not work properly with image files. It shows that information is not properly stored.
@@ -8,7 +7,6 @@ UNI: ht2334
 4. File transfer destination, receiver, next hop will only display once for the same file.
 5. CLOSE will not have immediate effect. After 3 timeout, other nodes will know. 
 6. Sometimes a node need to wait for other nodes to transfer DV to update to the right number. Please wait for some time. 
-7. I did part A and B.
 
 ============================General Description==========================
 I designed a Multi-thread Distributed Bellman Ford Algorithm that is used to compute the shortest path between reachable hosts in a distributed host group. All file transmission is based on UDP.
