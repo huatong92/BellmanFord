@@ -1,4 +1,4 @@
-Name: Hua Tong
+Author: Hua Tong
 
 ===============================!!!!NOTE!!!!=============================
 1. My TRANSFER command works great with .txt files, but does not work properly with image files. It shows that information is not properly stored.
