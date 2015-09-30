@@ -1,13 +1,5 @@
 Author: Hua Tong
 
-===============================!!!!NOTE!!!!=============================
-1. My TRANSFER command works great with .txt files, but does not work properly with image files. It shows that information is not properly stored.
-2. DO NOT USE 127.0.0.1 MIXED WITH REAL IP ADDRESS. USE ONLY REAL IP ADDRESS IN CONF FILE, PLEASE.
-3. The received file is named “RECEIVED-”+ORIGINAL_FILENAME.
-4. File transfer destination, receiver, next hop will only display once for the same file.
-5. CLOSE will not have immediate effect. After 3 timeout, other nodes will know. 
-6. Sometimes a node need to wait for other nodes to transfer DV to update to the right number. Please wait for some time. 
-
 ============================General Description==========================
 I designed a Multi-thread Distributed Bellman Ford Algorithm that is used to compute the shortest path between reachable hosts in a distributed host group. All file transmission is based on UDP.
 The following are my classes, their implementation and function:
